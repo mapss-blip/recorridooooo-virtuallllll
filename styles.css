@@ -12,17 +12,30 @@ div {
     width: 70vw;
     height: 40vw;
     background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .postit{
     width: 40vw;
     height: 25vw;
     background-color: rgb(244, 228, 249);
     border-radius:5%;
-    display:flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+}
+.links{
+    width: 7vw;
+    height:4vw;
+    background-color: rgb(248, 246, 255);
+    border: 1px solid purple;
+    border-radius:5%;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
-
 a {
     color:rgb(67, 16, 100);
 }
