@@ -1,3 +1,11 @@
 #lobby{
+    background-image: url(/assets/Cowtown\ Coastal\ Denim.jpg)
+}
+#t1 {
+    color: rgb(236, 217, 250);
+    -webkit-text-stroke: 1px rgba(60, 15, 70, 0.582);
+    display:flex;
+    justify-content: center;
+    align-items: center;
     
 }
