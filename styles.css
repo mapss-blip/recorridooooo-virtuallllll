@@ -2,7 +2,7 @@
     background-image: url(/assets/checkered.jpg)
 }
 h1{
-    color: rgb(68, 21, 101);
+    color: rgb(124, 96, 76);
     -webkit-text-stroke: 1px rgba(60, 15, 70, 0.582);
     display:flex;
     justify-content: center;
@@ -27,15 +27,28 @@ div {
     position:relative;
 }
 .links{
-    width: 7vw;
+    width: 8vw;
     height:4vw;
-    background-color: rgb(248, 246, 255);
-    border: 1px solid purple;
+    background-color: rgb(32, 23, 66);
+    border: 1px solid transparent;
     border-radius:5%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 a {
-    color:rgb(67, 16, 100);
+    color:rgb(231, 220, 238);
+}
+#DenimStar {
+    width:18vw;
+     display: flex;
+    justify-content: center;
+    align-items: right;
+}
+
+#DenimFlower {
+    width:18vw;
+     display: flex;
+    justify-content: center;
+    align-items: left;
 }
