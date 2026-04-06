@@ -34,7 +34,9 @@ div {
     width: 8vw;
     height:3vw;
     background-color: rgb(32, 23, 66);
-    border: 1px solid transparent;
+    font-style: oblique;
+    margin-right: 1vw;
+    margin-bottom: 1vw;
     border-radius:5%;
     display: flex;
     justify-content: center;
@@ -115,3 +117,18 @@ display: flex;
 #musica{
     height: 13vw;
 }
+.elementos{
+    width: 100vw;
+    background-color: blueviolet;
+    font-size: 10em;
+
+}
+@media (min-width: 600px){
+    .elementos{
+        background-color: aqua;
+        font-size: 15em;
+    }
+   
+}
+
+
