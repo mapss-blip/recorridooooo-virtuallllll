@@ -25,6 +25,10 @@ div {
     justify-content: center;
     align-items: center;
     position:relative;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
 }
 .links{
     width: 8vw;
@@ -39,16 +43,63 @@ div {
 a {
     color:rgb(231, 220, 238);
 }
-#DenimStar {
+.DenimStar {
     width:13vw;
      display: flex;
     justify-content: right;
     align-items: right;
+    border-radius:10%;
 }
 
-#DenimFlower {
+.DenimFlower {
     width:13vw;
      display: flex;
     justify-content: center;
     align-items: left;
+    border-radius: 10%;
+}
+.textico{
+    width: 40vw;
+    height: 4vw;
+    background-color: rgb(232, 228, 249);
+    color: rgb(32, 23, 66);
+    border-radius:5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+}
+.formato{
+    margin:1vw;
+    width: 60vw;
+    height:25vw
+}
+ul,ol{
+    list-style-type: none;
+}
+.nav li .imagenesFormato{
+width:13vw;
+height:17vw;
+border-radius: 10%;
+margin-left: 1vw;
+display: block;
+}
+.nav > li{
+    float: left;
+}
+#data{
+    width:9vw;
+    height:3vw;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(204, 196, 255);
+}
+.nav li ul{
+    display:none ;
+    position: absolute;
+}
+.nav li:hover > ul{
+    display: block;
 }
